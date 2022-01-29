@@ -1,0 +1,9 @@
+.ProductCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ProductCard > div{
+   margin: 1vmax;
+}

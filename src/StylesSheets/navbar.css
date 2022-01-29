@@ -1,0 +1,57 @@
+.Nav{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.links{
+    margin-top: 30px;
+}
+.navlinks{
+    text-decoration: none;
+    margin: 1.5vmax;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.navlinks:hover{
+ color:orangered;
+ text-decoration: none;
+ 
+}
+
+.search>input{
+    border: none;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+    margin: 2vmax;
+    outline: none;
+}
+.logo{
+    background-color: orangered;
+    width: 68px;
+    height: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin: 1vmax;
+    
+}
+
+#logoImage{
+    transition:all 0.2s;
+    
+    transform: translateX(-58px);
+}
+
+#logoImage:hover{
+  
+    transform: translateX(0);
+}
+.search >svg{
+    margin-top: 19px;
+    fill: gray;
+}
+

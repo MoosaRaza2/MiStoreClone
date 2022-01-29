@@ -1,0 +1,24 @@
+.Hotitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white ;
+    width: 31%;
+    transition: all 0.5s;
+}
+.Hotitem >img{
+    width: 70%;
+}
+.Hotitem >p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.Hotitem >span{
+    margin: 1vmax;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Hotitem:hover{
+    transform: translate(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.363);
+}

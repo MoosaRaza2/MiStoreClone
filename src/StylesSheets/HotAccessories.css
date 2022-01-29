@@ -1,0 +1,18 @@
+.HotAccessories{
+    display: flex;
+    margin: 2vmax;
+    flex-direction: row;
+    
+    
+}
+.HotAccessories>:last-child{
+   display: flex;
+   flex-wrap: wrap;
+   
+    height: 10%;
+
+}
+.HotAccessories>:first-child:hover{
+    transform: translate(-1vmax);
+  box-shadow: 5px 6px 15px rgba(53,53,53, 0.363);
+}

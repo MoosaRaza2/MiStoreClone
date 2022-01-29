@@ -1,0 +1,16 @@
+.hot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HotaccessoriesLink{
+    text-decoration: none;
+    color: black;
+    margin: 1vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.HotaccessoriesLink:hover{
+text-decoration: none;
+color: orangered;
+border-bottom: 1px solid orangered;
+}

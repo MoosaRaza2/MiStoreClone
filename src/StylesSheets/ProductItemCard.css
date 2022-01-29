@@ -1,0 +1,11 @@
+.product> b{
+   margin-left: 2vmax;
+   color: orangered;
+}
+.product{
+  transition: all 0.5s;
+}
+.product:hover{
+    transform: translate(0.4vmax);
+    box-shadow: 6px 6px 15px rgba(53,53,53, 0363);
+}
